@@ -21,7 +21,7 @@ public class Professeur extends Personne {
         System.out.println("ID : " + professeur.getid());
         System.out.println("Date de naissance : " + professeur.getdateNaissance());
         System.out.println("Ville : " + professeur.getville());
-        System.out.println("Prénom : " + professeur.getPrenom());
+        System.out.println("Prenom : " + professeur.getPrenom());
         System.out.println("Vacant : " + professeur.isVacant());
     }
 
@@ -33,12 +33,12 @@ public class Professeur extends Personne {
         professeur.setNom(Nom);
         professeur.setVacant(vacant);
 
-        System.out.println("Mise à jour des informations du professeur : ");
+        System.out.println("Mise a jour des informations du professeur : ");
         System.out.println("Nouvel ID : " + professeur.getid());
         System.out.println("Nouvelle date de naissance : " + professeur.getdateNaissance());
         System.out.println("Nouvelle ville : " + professeur.getville());
-        System.out.println("Nouveau prénom : " + professeur.getPrenom());
+        System.out.println("Nouveau prenom : " + professeur.getPrenom());
         System.out.println("Nouveau nom : " + professeur.getNom());
-        System.out.println("Nouvel état vacant : " + professeur.isVacant());
+        System.out.println("Nouvel etat vacant : " + professeur.isVacant());
     }
 }
